@@ -5,6 +5,10 @@ def load_library(file)
   library = YAML.load_file(file)
     library.each do |meaning, emoji|
         #binding.pry
+  if !emoticons[meaning]
+    emoticons[meaning] = {}
+  end
+  
   end
 end
 
