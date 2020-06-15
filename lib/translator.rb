@@ -8,11 +8,10 @@ def load_library(file)
 
         if !emoticons[meaning]
           emoticons[meaning] = {}
+        end
 
-    emoticons["get_meaning"][japanese] = meaning
-    emoticons["get_emoticon"][english] = japanese
+    end
   end
-   emoticons
 end
 
 def get_japanese_emoticon
