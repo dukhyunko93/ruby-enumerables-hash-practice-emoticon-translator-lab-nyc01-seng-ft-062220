@@ -1,5 +1,6 @@
 require "yaml"
 require'pry'
+
 def load_library(file)
   emoticons = {}
   country = {:enligsh => "", :japanese => ""}
