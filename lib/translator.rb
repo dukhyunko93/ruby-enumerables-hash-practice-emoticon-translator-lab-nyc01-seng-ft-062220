@@ -12,7 +12,9 @@ def load_library(file)
         emoticons[meaning] = {}
       end
 
-      emoticons[meaning][country]
+      if !emoticons[meaning][keys]
+        emoticons[meaning][keys] = ""
+      end
 
   binding.pry
     end
