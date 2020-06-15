@@ -3,11 +3,10 @@ require'pry'
 
 def load_library(file)
   emoticons = {}
-  country = {:enligsh => "", :japanese => ""}
-  country.each do |keys|
   library = YAML.load_file(file)
     library.each do |meaning, emoji|
-
+      country = {:enligsh => "", :japanese => ""}
+      country.each do |keys|
       if !emoticons[meaning]
         emoticons[meaning] = keys
       end
