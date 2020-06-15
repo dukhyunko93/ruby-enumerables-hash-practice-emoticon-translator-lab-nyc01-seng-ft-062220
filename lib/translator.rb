@@ -7,7 +7,7 @@ def load_library(file)
         #binding.pry
       meaning.each do |keys|
         keys = {"english","japanese"}
-
+      end
   end
 end
 
