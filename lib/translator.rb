@@ -1,4 +1,4 @@
-require ./lib/emoticons.
+require_relative ./lib/emoticons.
 
 def load_library
   # code goes here
