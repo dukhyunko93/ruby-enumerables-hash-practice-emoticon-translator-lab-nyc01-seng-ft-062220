@@ -1,6 +1,6 @@
-require 'yaml'
+require "yaml"
 
-def load_library(yaml)
+def load_library(file)
    library = {}
 
 end
