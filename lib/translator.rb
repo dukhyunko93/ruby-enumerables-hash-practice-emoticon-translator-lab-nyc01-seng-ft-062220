@@ -7,7 +7,10 @@ def load_library(file)
       emoji.each do |eng, jap|
 
         if !emoticons[meaning]
-          emoticons[meaning] = {:english => "", :japanse => ""}
+          emoticons[meaning] = {
+            :english => "",
+            :japanse => ""
+          }
         end
 binding.pry
     end
