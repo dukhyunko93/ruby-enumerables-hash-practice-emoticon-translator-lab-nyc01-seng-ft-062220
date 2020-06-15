@@ -6,11 +6,6 @@ def load_library(file)
     library.each do |meaning, emoji|
       eng,jap = emoji
 
-        if !emoticons[meaning]
-          emoticons[meaning] = {}
-        end
-
-
         #binding.pry
   end
 end
