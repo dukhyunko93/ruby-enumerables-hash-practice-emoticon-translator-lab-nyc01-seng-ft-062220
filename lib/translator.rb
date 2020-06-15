@@ -7,7 +7,7 @@ def load_library(file)
     library.each do |meaning, emoji|
       eng,jap = emoji
       country = {:enligsh => "", :japanese => ""}
-      country.each do |keys|
+      country.each do |keys, values|
 
       if !emoticons[meaning]
         emoticons[meaning] = {}
