@@ -14,7 +14,7 @@ def load_library(file)
           emoticons[meaning] = {}
         end
 
-      emoticons[meaning][country]
+
         binding.pry
   end
 end
