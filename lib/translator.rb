@@ -8,7 +8,7 @@ def load_library (file)
       hash["get_meaning"][emoji[1]] = meaning
       hash["get_emoticon"][emoji[0]] = emoji[1]
     end
-    binding.pry
+    #binding.pry
   return hash
 end
 
