@@ -7,7 +7,7 @@ def load_library(file)
       emoji.each do |english, japanese|
      end
    end
-   #binding.pry
+  binding.pry
 end
 
 def get_japanese_emoticon
