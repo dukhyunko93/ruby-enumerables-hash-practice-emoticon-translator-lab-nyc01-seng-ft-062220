@@ -4,6 +4,7 @@ def load_library(file)
    library = YAML.load_file(file)
    library.each do |emoji|
    end
+   binding.pry
 
 end
 
