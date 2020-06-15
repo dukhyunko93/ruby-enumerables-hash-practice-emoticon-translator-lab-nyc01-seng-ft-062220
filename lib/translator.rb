@@ -17,10 +17,6 @@ def load_library(file)
         emoticons[meaning][keys] = ""
       end
 
-
-      emoticons[meaning][keys][0] << eng
-      emoticons[meaning][keys][1] << jap
-
   binding.pry
     end
   end
