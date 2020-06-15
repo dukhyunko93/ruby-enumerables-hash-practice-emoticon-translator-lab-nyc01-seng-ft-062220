@@ -6,7 +6,6 @@ def load_library(file)
     library.each do |meaning, emoji|
         #binding.pry
       meaning.each do |keys|
-        keys = ["english","japanese"]
       end
   end
 end
