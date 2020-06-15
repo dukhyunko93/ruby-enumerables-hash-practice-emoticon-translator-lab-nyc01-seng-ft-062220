@@ -5,7 +5,6 @@ def load_library(file)
   library = YAML.load_file(file)
     library.each do |meaning, emoji|
       eng,jap = emoji
-      inner_hash = {:enlgish => eng, :japanses => jap}
 
         if !emoticons[meaning]
           emoticons[meaning] = {}
