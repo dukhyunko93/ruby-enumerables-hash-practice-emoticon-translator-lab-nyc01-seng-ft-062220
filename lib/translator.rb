@@ -3,7 +3,8 @@ require'pry'
 
 def load_library(file)
    library = YAML.load_file(file)
-
+   library.each do |phrase, emoticons|
+   end
 binding.pry
 end
 
