@@ -1,4 +1,4 @@
-require './lib/emotions.yml'
+require ./lib/emotions.yml
 
 def load_library
   # code goes here
