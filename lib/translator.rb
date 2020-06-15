@@ -12,6 +12,7 @@ def load_library(file)
 
     if !emoticons[meaning][counutry]
       emoticons[meaning][counutry] = {}
+      
       binding.pry
   end
 end
