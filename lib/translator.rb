@@ -4,11 +4,10 @@ def load_library(file)
   emoticons = {"get_meaning"=>{},"get_emoticon"=>{}}
   library = YAML.load_file(file)
     library.each do |meaning, emoji|
-      emoji.each do |english, japanese|
+    english, japanese = emoji
     emoticons["get_meaning"][japanese] = meaning
     emoticons["get_emoticon"][english] = japanese
     binding.pry
-    end
   end
    emoticons
   #binding.pry
