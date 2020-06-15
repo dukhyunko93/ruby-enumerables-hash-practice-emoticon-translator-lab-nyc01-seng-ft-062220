@@ -6,7 +6,8 @@ def load_library(file)
     library.each do |meaning, emoji|
     english, japanese = emoji
     emoticons["get_meaning"][japanese] = meaning
-    emoticons["get_emoticon"][english] = japanesebinding.pry
+    emoticons["get_emoticon"][english] = japanese
+    binding.pry
   end
    emoticons
   binding.pry
