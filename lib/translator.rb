@@ -5,6 +5,7 @@ def load_library(file)
   library = YAML.load_file(file)
     library.each do |meaning|
       meaning.each do |inner_hash|
+        binding.pry
     end
   end
 end
