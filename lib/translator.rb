@@ -2,16 +2,16 @@ require "yaml"
 require'pry'
 def load_library(file)
   emoticons = {}
-  country
+  country = {
+    :english => "",
+    :japanse => ""
+  }
   library = YAML.load_file(file)
     library.each do |meaning, emoji|
       eng,jap = emoji
 
         if !emoticons[meaning]
-          emoticons[meaning] = {
-            :english => "",
-            :japanse => ""
-          }
+          emoticons[meaning] = {}
         end
 
 binding.pry
