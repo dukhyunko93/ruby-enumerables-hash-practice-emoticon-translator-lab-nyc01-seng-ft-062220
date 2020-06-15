@@ -5,8 +5,6 @@ def load_library(file)
   library = YAML.load_file(file)
     library.each do |meaning, emoji|
         #binding.pry
-      meaning.each do |keys|
-      end
   end
 end
 
