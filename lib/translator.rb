@@ -3,9 +3,7 @@ require'pry'
 def load_library(file)
   emoticons = {}
   library = YAML.load_file(file)
-    library.each do |meaning, emoji|
-      eng,jap = emoji
-
+    library.each do |meaning|
         #binding.pry
   end
 end
