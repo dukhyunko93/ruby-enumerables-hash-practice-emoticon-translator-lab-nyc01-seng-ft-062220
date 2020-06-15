@@ -15,7 +15,7 @@ def load_library(file)
         end
 
 
-        binding.pry
+        #binding.pry
   end
 end
 
