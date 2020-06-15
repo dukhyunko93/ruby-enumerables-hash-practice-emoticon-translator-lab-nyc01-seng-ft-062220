@@ -1,7 +1,7 @@
 require "yaml"
 require'pry'
 def load_library(file)
-  hash = {}
+  emoticons = {"get_meaning"=>{},"get_emoticon"=>{}}
   library = YAML.load_file(file)
     library.each do |phrase, emoji|
       emoji.each do |english, japanese|
