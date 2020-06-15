@@ -9,7 +9,7 @@ def load_library(file)
       country.each do |keys|
 
       if !emoticons[meaning]
-        emoticons[meaning] = {keys}
+        emoticons[meaning] = {}
       end
   binding.pry
     end
