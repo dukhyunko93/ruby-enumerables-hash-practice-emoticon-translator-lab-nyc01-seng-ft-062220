@@ -4,7 +4,7 @@ def load_library(file)
   emoticons = {}
   library = YAML.load_file(file)
     library.each do |meaning, emoji|
-      emoji.each do |eng, jap|
+      eng,jap = emogji
 
         if !emoticons[meaning]
           emoticons[meaning] = {
@@ -12,7 +12,7 @@ def load_library(file)
             :japanse => ""
           }
         end
-        
+
 binding.pry
     end
   end
