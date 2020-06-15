@@ -12,6 +12,7 @@ def load_library(file)
             :japanse => ""
           }
         end
+        
 binding.pry
     end
   end
