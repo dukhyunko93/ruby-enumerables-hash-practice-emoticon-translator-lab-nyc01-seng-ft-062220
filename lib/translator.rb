@@ -6,6 +6,9 @@ def load_library(file)
     library.each do |meaning, emoji|
       emoji.each do |eng, jap|
 
+        if !emoticons[meaning]
+          emoticons[meaning] = {}
+
     emoticons["get_meaning"][japanese] = meaning
     emoticons["get_emoticon"][english] = japanese
   end
