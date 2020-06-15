@@ -11,10 +11,7 @@ def load_library(file)
       emoticons[meaning] = {}
     end
 
-    if !emoticons[meaning][counutry]
-      emoticons[meaning][counutry] = {}
-    end
-    
+
   end
 end
 
