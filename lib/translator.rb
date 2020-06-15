@@ -5,8 +5,9 @@ def load_library(file)
   emoticons = {}
   library = YAML.load_file(file)
     library.each do |meaning, emoji|
-    eng,jap = emoji
-      country = {:enligsh => eng, :japanese => jap}
+    eng,jap = emojig
+      country = {:enligsh => "", :japanese => ""}
+      country.each do |keys, values|
 
       if !emoticons[meaning]
         emoticons[meaning] = {}
