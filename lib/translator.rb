@@ -8,6 +8,7 @@ def load_library(file)
     emoticons["get_meaning"][japanese] = meaning
     emoticons["get_emoticon"][english] = japanese
     binding.pry
+    end
   end
    emoticons
   #binding.pry
