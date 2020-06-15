@@ -18,7 +18,7 @@ def load_library(file)
       end
 
 
-      emoticons[meaning][keys] << emoji
+      emoticons[meaning][keys] << emoji.to_s
 
   binding.pry
     end
